@@ -1,6 +1,6 @@
 ## JChat
 
-JChat is a simple privacy oriented 
+JChat is a simple privacy oriented chat app.
 
 ## Folder Structure
 

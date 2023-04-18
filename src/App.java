@@ -1,4 +1,5 @@
 import jsjf.User;
+import jsjf.wire.MessageDaemon;
 import jsjf.Message;
 
 public class App {
@@ -15,6 +16,13 @@ public class App {
         System.out.println(user1.toString() + "\n\n");
         System.out.println(user1.getInboxMessage(0).toString());
         System.out.println(user1.getOutboxMessage(0).toString());
+
+        System.out.println("Server starting...");
+        MessageDaemon server = new MessageDaemon(6969);
+        server.run();
+
+
+
         
     }
 }

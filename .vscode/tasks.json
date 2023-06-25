@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"command": "gradle",
+	"isShellCommand": true,
+	"args": [""],
+	"ShowOutput": "always",
+	"problemMatchers": [
+		"$gradle"
+	],
+	"tasks": [
+		{
+			"type": "gradle",
+			"id": "c:\\Users\\jlamp\\OneDrive\\Workspace\\JChat_Gradleapp:runapp",
+			"script": "app:run",
+			"description": "Runs this project as a JVM application",
+			"group": "application",
+			"project": "app",
+			"buildFile": "C:\\Users\\jlamp\\OneDrive\\Workspace\\JChat_Gradle\\app\\build.gradle.kts",
+			"rootProject": "JChat_Gradle",
+			"projectFolder": "c:\\Users\\jlamp\\OneDrive\\Workspace\\JChat_Gradle",
+			"workspaceFolder": "c:\\Users\\jlamp\\OneDrive\\Workspace\\JChat_Gradle",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: app:run"
+		}
+	]
+}
